@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\Debug\empty.exe</FullPath>
+      <FullPath>C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\Debug\empty.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

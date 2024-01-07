@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\CMakeFiles\f8c10da2607b807de9c4df03deae7413\INSTALL_force.rule">
+    <CustomBuild Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\CMakeFiles\172b7bafa78694b8d708b0480da6f309\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{19BB817C-B49F-3CF1-B9D5-DFC6EBA6848F}</UniqueIdentifier>
+      <UniqueIdentifier>{775338C4-AE6B-3DC4-AC85-1690803BD04D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

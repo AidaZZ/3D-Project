@@ -1,1 +1,20 @@
-﻿  playground.vcxproj -> C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\Debug\playground.exe
+﻿  playground.cpp
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(82,24): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(89,23): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(94,23): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(99,23): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(104,23): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(109,22): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(323,22): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(323,66): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(324,22): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(324,66): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(325,22): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(325,66): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(326,22): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(326,66): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(327,22): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(327,66): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(328,22): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\playground\playground.cpp(328,66): warning C4305: '=': truncation from 'double' to 'GLfloat'
+  playground.vcxproj -> C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\Debug\playground.exe

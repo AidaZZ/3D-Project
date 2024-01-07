@@ -29,16 +29,16 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{4817850C-3F00-3581-85E8-167259EAE1C3}</UniqueIdentifier>
+      <UniqueIdentifier>{76BE9AA2-2D59-3CEA-9315-0DF94500B401}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{0043687F-0A2C-39C3-9177-FC0580A6E374}</UniqueIdentifier>
+      <UniqueIdentifier>{0B996814-3490-31A5-AA67-C80EF64A5D38}</UniqueIdentifier>
     </Filter>
     <Filter Include="common">
-      <UniqueIdentifier>{5B427DD5-A29B-3F13-8D82-E35A5C75B216}</UniqueIdentifier>
+      <UniqueIdentifier>{986535D2-C29E-34E6-BD90-382CA6859560}</UniqueIdentifier>
     </Filter>
     <Filter Include="shaders">
-      <UniqueIdentifier>{32A6C67B-9517-3FA1-BDFD-CE2AE50CF7F4}</UniqueIdentifier>
+      <UniqueIdentifier>{6E7DCE5F-F847-3AB6-9985-373B322E5E58}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

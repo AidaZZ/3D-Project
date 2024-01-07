@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/glfw-3.1.2/cmake_install.cmake")
+  include("C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/glfw-3.1.2/cmake_install.cmake")
 
 endif()
 

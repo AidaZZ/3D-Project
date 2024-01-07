@@ -11,4 +11,4 @@
   win32_window.c
   winmm_joystick.c
   wgl_context.c
-  glfw.vcxproj -> C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\src\Debug\glfw3.lib
+  glfw.vcxproj -> C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\src\Debug\glfw3.lib

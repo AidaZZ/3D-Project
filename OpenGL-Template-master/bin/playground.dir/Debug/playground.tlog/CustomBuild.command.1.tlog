@@ -1,6 +1,6 @@
 ^C:\USERS\USER\DESKTOP\CTS5\COMPUTER GRAPHICS\OPENGL-TEMPLATE-MASTER\SRC\OPENGL-TEMPLATE-MASTER\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" "-BC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin" --check-stamp-file "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" -BC:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin --check-stamp-file C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

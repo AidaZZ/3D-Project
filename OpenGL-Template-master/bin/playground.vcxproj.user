@@ -3,28 +3,28 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\Debug\playground.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\Debug\playground.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
     <LocalDebuggerWorkingDirectory>C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master/playground/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\Release\playground.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\Release\playground.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
     <LocalDebuggerWorkingDirectory>C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master/playground/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\MinSizeRel\playground.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\MinSizeRel\playground.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
     <LocalDebuggerWorkingDirectory>C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master/playground/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\RelWithDebInfo\playground.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\RelWithDebInfo\playground.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
     <LocalDebuggerWorkingDirectory>C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master/playground/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>

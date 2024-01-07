@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E7390707-2F2D-3CB2-A80D-9CB761384CB0}</ProjectGuid>
+    <ProjectGuid>{728AF697-17D7-333B-8E88-C1B9AEC5AA52}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -112,7 +112,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" "-BC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin" --check-stamp-file "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" -BC:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin --check-stamp-file C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,11 +121,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" "-BC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin" --check-stamp-file "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" -BC:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin --check-stamp-file C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,11 +134,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" "-BC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin" --check-stamp-file "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" -BC:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin --check-stamp-file C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -147,11 +147,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" "-BC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin" --check-stamp-file "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" -BC:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin --check-stamp-file C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -160,113 +160,113 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\ZERO_CHECK.vcxproj">
-      <Project>{254545EF-6AD7-313A-BD89-391DBC1F58ED}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\ZERO_CHECK.vcxproj">
+      <Project>{E8E77D9E-E9A6-3AB9-9851-B107F8DE28FE}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\examples\boing.vcxproj">
-      <Project>{FA9DE26B-8F53-36F3-BB88-73D8025CB6D1}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\examples\boing.vcxproj">
+      <Project>{4013985E-2091-3D95-977F-C7AC88F2ADA2}</Project>
       <Name>boing</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\clipboard.vcxproj">
-      <Project>{32FDDD18-C615-38AF-B229-43A1F0281A73}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\clipboard.vcxproj">
+      <Project>{7F5ECE95-9D85-33B2-AF6A-F0B7B07B9F98}</Project>
       <Name>clipboard</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\cursor.vcxproj">
-      <Project>{82D4DA4B-09DD-34D9-AD33-9B44F6A4DD28}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\cursor.vcxproj">
+      <Project>{BD002711-74F7-3E5F-9905-1C2123DE2AB6}</Project>
       <Name>cursor</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\empty.vcxproj">
-      <Project>{87D04F72-9807-3AA1-B889-B95638E58675}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\empty.vcxproj">
+      <Project>{64272A3B-ABCC-359F-BB34-E445047DF7F0}</Project>
       <Name>empty</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\events.vcxproj">
-      <Project>{72013922-0AA7-33BC-8164-B62C19036FD3}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\events.vcxproj">
+      <Project>{F668C839-EC0B-3030-A575-6E64A017BA34}</Project>
       <Name>events</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\gamma.vcxproj">
-      <Project>{5794E859-7D36-31C5-BCB5-12A18321A258}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\gamma.vcxproj">
+      <Project>{F21CE2A9-8110-3C0C-8802-24D5EFDDC8D1}</Project>
       <Name>gamma</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\examples\gears.vcxproj">
-      <Project>{F35D43A1-BF1D-3F78-BAA5-3AA50FAFEFEC}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\examples\gears.vcxproj">
+      <Project>{37DD2FA4-C3B1-3D56-B950-FE35A340EF61}</Project>
       <Name>gears</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\src\glfw.vcxproj">
-      <Project>{8CF9A55B-5228-3577-90AD-5CC6ECB8367C}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\src\glfw.vcxproj">
+      <Project>{5EC9C938-93FA-384B-ABFE-E75AE28C00A9}</Project>
       <Name>glfw</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\glfwinfo.vcxproj">
-      <Project>{60C424B3-E35B-3AD1-B9A0-1554A6BBFE3D}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\glfwinfo.vcxproj">
+      <Project>{FA684AFE-DCEA-3FF0-A443-199A34106E91}</Project>
       <Name>glfwinfo</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\examples\heightmap.vcxproj">
-      <Project>{AC818D9E-1EB8-36CC-B806-1582BEC85DA7}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\examples\heightmap.vcxproj">
+      <Project>{A79C8E56-A75B-30E7-85E1-91A44A7639AD}</Project>
       <Name>heightmap</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\iconify.vcxproj">
-      <Project>{E2021205-37EF-3B25-9BDD-D2D6DB26E72F}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\iconify.vcxproj">
+      <Project>{F402F88D-A2C6-3B0C-810B-3870BAA9DA94}</Project>
       <Name>iconify</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\joysticks.vcxproj">
-      <Project>{426033F0-379D-3CA4-9401-AD9535EE8C06}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\joysticks.vcxproj">
+      <Project>{F9912D8A-F4EA-339E-96BE-5FEC563AF9F5}</Project>
       <Name>joysticks</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\monitors.vcxproj">
-      <Project>{F8CD87EF-50CC-3D0D-9957-07BB77B8728B}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\monitors.vcxproj">
+      <Project>{C1A9A5AA-4624-352B-BB41-110AB2930F73}</Project>
       <Name>monitors</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\msaa.vcxproj">
-      <Project>{301C3264-07E7-3119-8B11-47501BDAB66F}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\msaa.vcxproj">
+      <Project>{E98EEC20-9244-30B9-A2A9-1A4B85970F03}</Project>
       <Name>msaa</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\examples\particles.vcxproj">
-      <Project>{E20C31CD-1142-3167-855F-7F725C20F5AF}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\examples\particles.vcxproj">
+      <Project>{65A9AADD-CD19-3A6B-9CDE-3C624FC47318}</Project>
       <Name>particles</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\reopen.vcxproj">
-      <Project>{E8B045D9-AE01-348B-A9F4-DB61AF94738A}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\reopen.vcxproj">
+      <Project>{D40632B3-0FAF-3A4C-BF61-5BB7EAA167DC}</Project>
       <Name>reopen</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\sharing.vcxproj">
-      <Project>{F7C88DAC-6D86-3006-8DB4-4C2EDB475955}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\sharing.vcxproj">
+      <Project>{D208EA97-F150-3390-ACC9-82ADC4188121}</Project>
       <Name>sharing</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\examples\simple.vcxproj">
-      <Project>{ABC1C995-1051-3FC0-9319-BAF62BC06D83}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\examples\simple.vcxproj">
+      <Project>{4A8334DD-1873-3747-8A8A-3D99341073AC}</Project>
       <Name>simple</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\examples\splitview.vcxproj">
-      <Project>{C166D014-C6C1-30E8-92C6-86E52A0447D9}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\examples\splitview.vcxproj">
+      <Project>{1D13ED74-85F5-368B-BF48-DCC5A6CCF837}</Project>
       <Name>splitview</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\tearing.vcxproj">
-      <Project>{8B486166-92C9-32B7-90B5-0E5E85270D2B}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\tearing.vcxproj">
+      <Project>{665BA4E1-9798-32F8-BB28-5581135173CF}</Project>
       <Name>tearing</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\threads.vcxproj">
-      <Project>{FA23220C-4F9F-3705-AD63-9EC1DC79201F}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\threads.vcxproj">
+      <Project>{A084C337-BBCC-369D-ACA3-B305AA1ACD72}</Project>
       <Name>threads</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\title.vcxproj">
-      <Project>{B59367EE-3A99-3C5A-8FE8-3ED5714FA030}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\title.vcxproj">
+      <Project>{959F1606-A433-36C6-ABC0-42B82B8128D8}</Project>
       <Name>title</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\examples\wave.vcxproj">
-      <Project>{71633CA2-3248-30FD-AB56-0F5634F3F2BF}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\examples\wave.vcxproj">
+      <Project>{9BC7A0A0-AA3B-3FEC-ACAE-7EC8EC2B6886}</Project>
       <Name>wave</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\windows.vcxproj">
-      <Project>{8A42616D-B9B2-3A75-ABB6-98F4802B47C9}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\tests\windows.vcxproj">
+      <Project>{927C1335-2D42-3E60-B195-5979701D9BE0}</Project>
       <Name>windows</Name>
     </ProjectReference>
   </ItemGroup>

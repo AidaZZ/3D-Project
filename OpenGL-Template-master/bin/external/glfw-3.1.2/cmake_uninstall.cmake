@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/glfw-3.1.2/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/glfw-3.1.2/install_manifest.txt\"")
+if (NOT EXISTS "C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/glfw-3.1.2/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/glfw-3.1.2/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/glfw-3.1.2/install_manifest.txt" files)
+file(READ "C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/glfw-3.1.2/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

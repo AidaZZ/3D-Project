@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7543D48B-A26D-312C-9CE7-679FF1699AA3}</ProjectGuid>
+    <ProjectGuid>{FDCFB75E-621B-3A54-B909-D196E87E1206}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -105,10 +105,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\CMakeFiles\f8c10da2607b807de9c4df03deae7413\uninstall.rule">
+    <CustomBuild Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\CMakeFiles\172b7bafa78694b8d708b0480da6f309\uninstall.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/glfw-3.1.2/cmake_uninstall.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/glfw-3.1.2/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -117,12 +117,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/glfw-3.1.2/cmake_uninstall.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/glfw-3.1.2/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,12 +131,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/glfw-3.1.2/cmake_uninstall.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/glfw-3.1.2/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -145,12 +145,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/glfw-3.1.2/cmake_uninstall.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/glfw-3.1.2/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,7 +159,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
@@ -169,7 +169,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" "-BC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin" --check-stamp-file "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" -BC:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin --check-stamp-file C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -178,11 +178,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" "-BC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin" --check-stamp-file "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" -BC:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin --check-stamp-file C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -191,11 +191,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" "-BC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin" --check-stamp-file "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" -BC:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin --check-stamp-file C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -204,11 +204,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" "-BC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin" --check-stamp-file "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" -BC:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin --check-stamp-file C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -217,17 +217,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\uninstall">
+    <None Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\external\glfw-3.1.2\CMakeFiles\uninstall">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\bin\ZERO_CHECK.vcxproj">
-      <Project>{254545EF-6AD7-313A-BD89-391DBC1F58ED}</Project>
+    <ProjectReference Include="C:\prog\CG_3D\3D-Project\OpenGL-Template-master\bin\ZERO_CHECK.vcxproj">
+      <Project>{E8E77D9E-E9A6-3AB9-9851-B107F8DE28FE}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

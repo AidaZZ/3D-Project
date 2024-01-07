@@ -1,6 +1,6 @@
-^C:\USERS\USER\DESKTOP\CTS5\COMPUTER GRAPHICS\OPENGL-TEMPLATE-MASTER\BIN\CMAKEFILES\17D0017D4CDE434C50E7244D2D9231BB\GENERATE.STAMP.RULE
+^C:\PROG\CG_3D\3D-PROJECT\OPENGL-TEMPLATE-MASTER\BIN\CMAKEFILES\6214285FBA5D634EC4E0A669A883903C\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" "-BC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/OpenGL-Template.sln"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/src/OpenGL-Template-master" -BC:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/OpenGL-Template.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

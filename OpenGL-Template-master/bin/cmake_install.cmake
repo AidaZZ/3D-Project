@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/external/cmake_install.cmake")
+  include("C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/external/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/User/Desktop/CTS5/Computer Graphics/OpenGL-Template-master/bin/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/prog/CG_3D/3D-Project/OpenGL-Template-master/bin/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
