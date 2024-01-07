@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\examples\heightmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\deps\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\deps\glad\glad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Desktop\CTS5\Computer Graphics\OpenGL-Template-master\src\OpenGL-Template-master\external\glfw-3.1.2\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4817850C-3F00-3581-85E8-167259EAE1C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0043687F-0A2C-39C3-9177-FC0580A6E374}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
